@@ -29,4 +29,9 @@ public class IceComponentFactory implements EnemyComponentFactory {
     public String createAIBehavior() {
         return "DEFENSIVE";
     }
+    @Override
+    public String getElement() {
+        return "ICE";
+    }
+
 }
