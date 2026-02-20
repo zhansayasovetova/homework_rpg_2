@@ -27,6 +27,12 @@ public class FireComponentFactory implements EnemyComponentFactory {
 
     @Override
     public String createAIBehavior() {
+
         return "AGGRESSIVE";
     }
+    @Override
+    public String getElement() {
+        return "FIRE";
+    }
+
 }
