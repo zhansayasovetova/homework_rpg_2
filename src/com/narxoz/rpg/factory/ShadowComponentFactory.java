@@ -29,4 +29,9 @@ public class ShadowComponentFactory implements EnemyComponentFactory {
     public String createAIBehavior() {
         return "TACTICAL";
     }
+    @Override
+    public String getElement() {
+        return "SHADOW";
+    }
+
 }
